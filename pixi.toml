@@ -16,3 +16,20 @@ scipy = ">=1.10,<2"
 ipykernel = ">=6,<8"
 jupyterlab = ">=4,<5"
 tqdm = ">=4.64,<5"
+
+### Jupyter Lab Environment (pixi run jupyter) #############
+
+[feature.jupyter.dependencies]
+python = "3.13.*"
+
+[feature.jupyter.pypi-dependencies]
+jupyterlab = ">=4"
+
+[feature.jupyter.tasks]
+jupyter = "jupyter lab"
+
+[environments.jupyter]
+features = ["jupyter"]
+no-default-feature = true
+
+################################################

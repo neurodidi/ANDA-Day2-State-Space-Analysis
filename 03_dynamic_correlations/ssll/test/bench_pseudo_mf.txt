@@ -1,0 +1,193 @@
+# bench_pseudo_mf @ 2026-06-05 01:29:33
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=2 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 20    1.567    1.505    1.567
+
+# bench_pseudo_mf @ 2026-06-05 01:29:48
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=2 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 40    4.906    4.585    4.906
+
+# bench_pseudo_mf @ 2026-06-05 01:30:03
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=2 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 60   10.521    9.695   10.521
+
+# bench_pseudo_mf @ 2026-06-05 01:34:41
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=2 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 20    1.556    1.450    1.556
+ 40    4.795    4.701    4.795
+
+# bench_pseudo_mf @ 2026-06-05 01:49:27
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=2 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 20    1.328    1.254    1.328
+ 40    4.466    3.516    4.466
+ 60    8.650    8.394    8.650
+
+# bench_pseudo_mf @ 2026-06-05 02:25:06
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=2 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 20    1.276    1.234    1.276
+ 40    4.207    3.638    4.207
+ 60    6.546    6.381    6.546
+
+# bench_pseudo_mf @ 2026-06-05 03:06:55
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=3 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 20    1.218    1.176    1.250
+ 40    4.101    3.427    4.131
+ 60    5.664    5.497    5.858
+
+# bench_pseudo_mf @ 2026-06-05 03:12:55
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=3 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 20    1.185    1.167    1.282
+ 40    2.729    2.662    3.341
+ 60    5.215    4.961    5.298
+
+# bench_pseudo_mf @ 2026-06-05 03:14:40
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=3 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 20    1.188    1.152    1.252
+ 40    3.960    3.136    3.979
+ 60    5.358    5.201    5.498
+
+# bench_pseudo_mf @ 2026-06-05 03:21:29
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=3 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 20    0.798    0.793    0.882
+ 40    2.399    2.256    2.401
+ 60    3.098    3.072    3.681
+
+# bench_pseudo_mf @ 2026-06-05 03:21:56
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=3 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 20    0.775    0.757    0.879
+ 40    2.385    2.299    2.388
+ 60    3.158    3.072    3.867
+
+# bench_pseudo_mf @ 2026-06-05 03:32:04
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=3 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 20    0.726    0.716    0.785
+ 40    2.193    1.771    2.201
+ 60    2.731    2.686    2.782
+
+# bench_pseudo_mf @ 2026-06-05 04:11:42
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=3 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s
+ 20    0.648    0.642    0.684
+ 40    1.790    1.764    2.060
+ 60    2.541    2.440    2.833
+
+# bench_pseudo_mf @ 2026-06-05 04:50 (paired 15 reps, post opt/tap-linearity)
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=15 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s   (master->opt)
+# master: 60  2.661  2.528  2.765
+# opt:    60  2.518  2.378  2.607  (~5% faster across the distribution)
+ 60    2.518    2.378    2.607
+
+# bench_pseudo_mf @ 2026-06-05 05:05 (paired 15 reps, post opt/hoist-dllk-from-ls2)
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=15 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s   (master->opt)
+# master: 60  2.540  2.445  2.723
+# opt:    60  2.192  2.122  2.301   (~-13.7% median, -13.2% min)
+ 60    2.192    2.122    2.301
+
+# bench_pseudo_mf @ 2026-06-05 05:30 (paired 15 reps, post opt/direct-stacked-o2)
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=15 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s   (master->opt)
+# master: 60  2.131  1.994  2.586
+# opt:    60  1.755  1.574  1.810   (~-17.6% median, -21.1% min)
+# direct stacked-CSR build for order=2 (cg/bf) skips per-s sparse + hstack
+ 60    1.755    1.574    1.810
+
+# bench_pseudo_mf @ 2026-06-05 (paired 15 reps, post opt/ls2-scalar-recurrence)
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=15 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s   (master->opt)
+# master: 60  1.659  1.480  2.577
+# opt:    60  1.540  1.464  1.624   (~-7.2% median, much tighter variance)
+# pseudo_line_search2 inner loop collapsed to scalar affine recurrence
+# (theta does not accumulate across iters, so dlpr is affine in alpha and
+#  the entire D-vector inner work reduces to scalar; theta_new/fs_new
+#  reconstructed once at the end from the final alpha)
+ 60    1.540    1.464    1.624
+
+# bench_pseudo_mf @ 2026-06-05 (paired 15 reps, post opt/dense-dllk)
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=15 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s   (master->opt)
+# master: 60  1.561  1.464  2.156
+# opt:    60  1.363  1.195  1.937   (~-12.7% median, -18.4% min)
+# Replace Fx_s_stacked sparse matvecs (CSR for dllk, CSC for fs) with
+# dense closed-form equivalents:
+#   fs   = theta_h + X @ Theta2          (Theta2 symmetric NxN)
+#   dllk = [res.sum(0), (M + M.T) triu]  with M = X.T @ res, res = X-etas
+# Dense BLAS gemm at N=60,R=100 is ~1.4x faster than the CSC matvec, and
+# the dllk path also avoids the order='F' ravel-induced copy that the
+# CSR matvec previously required.
+ 60    1.363    1.195    1.937
+
+# bench_pseudo_mf @ 2026-06-05 (paired 15 reps, post opt/skip-fx-stacked-cg)
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=15 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s   (master->opt)
+# master: 60  1.323  1.218  1.964
+# opt:    60  1.247  1.134  1.823   (~-5.7% median, -6.9% min)
+# After OPT 12, neither pseudo_dllk nor pseudo_line_search2 touches the
+# Fx_s_stacked CSR / CSC matrices on the cg/bf hot path. Skip the
+# direct-stacked-CSR build entirely for order=2 cg/bf -- ~0.08s/run saved
+# (build alone was ~12% of the run at N=60). compute_cond_eta and
+# pseudo_log_likelihood still reference Fx_s_stacked_T but are not used
+# in the standard EM pipeline (verified by grep).
+ 60    1.247    1.134    1.823
+
+# bench_pseudo_mf @ 2026-06-05 (paired 15 reps, post opt/flat-pair-index)
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=15 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s   (master->opt)
+# master: 60  1.276  1.131  1.400   (clean run, after discarding two
+#                                    load-contaminated runs at ~1.84 median)
+# opt:    60  1.194  1.119  1.714   (~-6.4% median; tail bumped by load)
+# Two changes to bit-equivalent dense formulae:
+#   _fs_from_theta_dense: cache (N, N) Theta2 buffer (off-diagonal fully
+#     overwritten each call -> diag stays zero from one-time init) and
+#     scatter the pair-block via 1D flat fancy indexing into the ravel
+#     view. Cuts per-call cost ~0.10ms -> ~0.055ms.
+#   pseudo_dllk: gather the pair-block of M = X.T @ res via 1D flat
+#     indexing into M.ravel() instead of two 2D fancy gathers. Cuts the
+#     pair-gather from ~0.035ms to ~0.013ms.
+# Profile (3 runs): pseudo_dllk tottime 1.154s -> 0.896s,
+# _fs_from_theta_dense tottime 0.415s -> 0.221s (~7.6% of run total).
+ 60    1.194    1.119    1.714
+
+# bench_pseudo_mf @ 2026-06-05 (paired 15 reps, post opt/spikes-float)
+# host=carnot python=3.6.4 numpy=1.19.2
+# T=50 R=100 repeats=15 order=2 param_est=pseudo param_est_eta=mf max_iter=20
+# columns: N  median_s  min_s  max_s   (master->opt)
+# master: 60  1.180  1.161  1.265
+# opt:    60  1.126  1.095  1.144   (clean cluster; ~-4.6% median, -5.7% min)
+# binalize_spikes returns float64 instead of int. Cascades to BLAS gemm for
+# X_t @ Theta2 in _fs_from_theta_dense (~0.42ms -> ~0.04ms standalone)
+# and the batched matmul in compute_y. Values are still {0., 1.}, so the
+# equation arithmetic is identical -- only the storage dtype changes.
+ 60    1.126    1.095    1.144
